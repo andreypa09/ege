@@ -6,7 +6,7 @@
 # good = alpha[:12]
 # bad = alpha[12:]
 #
-# even = good[::2]
+# even = good[1::2]
 # max_len = 0
 # for i in bad:
 #     data = data.replace(i, ' ')
