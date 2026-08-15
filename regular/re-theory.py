@@ -35,3 +35,5 @@ data = " +7 999 888 77 66 +7-999-888-77-66"
 pattern = r"(\+?7|8)(\s\d{3}){2}(\s\d{2}){2}"
 matches = [match.group() for match in finditer(pattern, data)]
 print(*matches)
+
+
