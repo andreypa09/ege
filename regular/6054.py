@@ -1,0 +1,1 @@
+pattern = r'([BC][BC]A)+'
